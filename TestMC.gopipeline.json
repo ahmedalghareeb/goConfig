@@ -65,7 +65,7 @@
               "configuration": [
                 {
                   "key": "PipelineName",
-                  "value": "MC_v1514"
+                  "value": ""
                 },
                 {
                   "key": "StageName",
