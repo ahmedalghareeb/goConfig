@@ -11,7 +11,7 @@
       "pipeline": "MY-NEW-PIPELINE",
       "stage": "defaultStage",
       "ignore_for_scheduling": false,
-      "name": "MY-NEW-PIPELINE",
+      "name": "MY-NEW-PIPELINE1",
       "type": "dependency"
     }
   ],
