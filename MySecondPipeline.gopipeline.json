@@ -1,0 +1,99 @@
+{
+  "group": "defaultGroup",
+  "name": "MySecondPipeline",
+  "display_order_weight": -1.0,
+  "label_template": "${COUNT}",
+  "lock_behavior": "none",
+  "environment_variables": [],
+  "parameters": [],
+  "materials": [
+    {
+      "pipeline": "MY-NEW-PIPELINE",
+      "stage": "defaultStage",
+      "ignore_for_scheduling": false,
+      "name": "MY-NEW-PIPELINE",
+      "type": "dependency"
+    }
+  ],
+  "stages": [
+    {
+      "name": "defaultStage",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "approval": {
+        "type": "success",
+        "users": [],
+        "roles": [],
+        "allow_only_on_success": false
+      },
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "defaultJob",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "timeout": 0.0,
+          "tasks": [
+            {
+              "source": "my-artifact.html",
+              "is_source_a_file": true,
+              "destination": "",
+              "pipeline": "MY-NEW-PIPELINE",
+              "stage": "defaultStage",
+              "job": "defaultJob",
+              "artifact_origin": "gocd",
+              "run_if": "passed",
+              "type": "fetch"
+            },
+            {
+              "command": "type",
+              "timeout": -1.0,
+              "arguments": [
+                "my-artifact.html"
+              ],
+              "run_if": "passed",
+              "type": "exec"
+            },
+            {
+              "plugin_configuration": {
+                "id": "net.soti.go.plugin.task.fetch.artifacts",
+                "version": "1.0-SNAPSHOT.GO-19"
+              },
+              "configuration": [
+                {
+                  "key": "PipelineName",
+                  "value": "MC_v1514"
+                },
+                {
+                  "key": "StageName",
+                  "value": "ExecuteAcceptance"
+                },
+                {
+                  "key": "JobName",
+                  "value": "*"
+                },
+                {
+                  "key": "ArtifactsPath",
+                  "value": "BDDTests-Result.xml"
+                },
+                {
+                  "key": "DownloadPath",
+                  "value": "tmp"
+                },
+                {
+                  "key": "AvoidJobNameSubDirectory",
+                  "value": "false"
+                }
+              ],
+              "run_if": "passed",
+              "type": "plugin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
