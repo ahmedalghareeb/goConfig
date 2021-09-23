@@ -41,7 +41,7 @@
               "source": "my-artifact.html",
               "is_source_a_file": true,
               "destination": "",
-              "pipeline": "MY-NEW-PIPELINE",
+              "pipeline": "MY-NEW-PIPELINE1",
               "stage": "defaultStage",
               "job": "defaultJob",
               "artifact_origin": "gocd",
