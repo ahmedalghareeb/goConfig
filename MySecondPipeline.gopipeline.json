@@ -8,7 +8,7 @@
   "parameters": [],
   "materials": [
     {
-      "pipeline": "MY-NEW-PIPELINE",
+      "pipeline": "MY-NEW-PIPELINE1",
       "stage": "defaultStage",
       "ignore_for_scheduling": false,
       "name": "MY-NEW-PIPELINE",
