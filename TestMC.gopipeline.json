@@ -65,7 +65,7 @@
               "configuration": [
                 {
                   "key": "PipelineName",
-                  "value": "GoCD_FetchArtifactsPlugin"
+                  "value": "GoCD_FetchArtifactsPlugin/19"
                 },
                 {
                   "key": "StageName",
