@@ -65,11 +65,11 @@
               "configuration": [
                 {
                   "key": "PipelineName",
-                  "value": "."
+                  "value": "MC_v1514"
                 },
                 {
                   "key": "StageName",
-                  "value": "FunctionalTesting"
+                  "value": "ExecuteAcceptance"
                 },
                 {
                   "key": "JobName",
