@@ -12,7 +12,7 @@
         },
         {
             "name": "GOCD_API_PASSWORD",
-            "value": "Welcome1234"
+            "value": "{{SECRET:[passFile][user]}}"
         }
     ],
   "parameters": [],
