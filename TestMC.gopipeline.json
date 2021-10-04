@@ -8,11 +8,11 @@
     [
         {
             "name": "GOCD_API_USER",
-            "value": "user1"
+            "value": "user"
         },
         {
             "name": "GOCD_API_PASSWORD",
-            "value": "{{SECRET:[passFile][user]}}"
+            "encrypted_value" : "AES:ZSb0oSyKnyp+2oy6GQ61IA==:DJh+UefLtZXetGRNU8P7KA=="
         }
     ],
   "parameters": [],
