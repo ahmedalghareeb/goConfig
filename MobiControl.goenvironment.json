@@ -12,6 +12,7 @@
                                   }
                               ],
     "pipelines":  [
-                      
+                      "MY-NEW-PIPELINE1",
+                      "TestPipelineAsCode"
                   ]
 }
