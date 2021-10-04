@@ -4,17 +4,7 @@
   "display_order_weight": -1.0,
   "label_template": "${COUNT}",
   "lock_behavior": "none",
-   "environment_variables":
-    [
-        {
-            "name": "GOCD_API_USER",
-            "value": "user"
-        },
-        {
-            "name": "GOCD_API_PASSWORD",
-            "encrypted_value" : "AES:ZSb0oSyKnyp+2oy6GQ61IA==:DJh+UefLtZXetGRNU8P7KA=="
-        }
-    ],
+   "environment_variables": [],
   "parameters": [],
   "materials": [
     {
