@@ -8,7 +8,7 @@
     [
         {
             "name": "GOCD_API_USER",
-            "value": "user"
+            "value": "user1"
         },
         {
             "name": "GOCD_API_PASSWORD",
