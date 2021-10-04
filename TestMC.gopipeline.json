@@ -59,7 +59,7 @@
             },
             {
               "plugin_configuration": {
-                "id": "net.soti.go.plugin.task.fetch.artifacts.test",
+                "id": "net.soti.go.plugin.task.fetch.artifacts.Test",
                 "version": "1.0-SNAPSHOT.GO-2"
               },
               "configuration": [
