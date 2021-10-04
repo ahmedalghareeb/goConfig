@@ -8,7 +8,7 @@
                                   },
                                   {
                                       "name":  "GOCD_API_PASSWORD",
-                                      "encrypted_value":  "AES:lzcCuNSe4vUx+CsWgN11Uw==:n04ETSuXE+fQNcXfZHQlFA=="
+                                      "encrypted_value" : "AES:Lxli2UMucba3L3KyoJzKOw==:S072emjvcBhRFXqvmNvrjg=="
                                   }
                               ],
     "pipelines":  [
